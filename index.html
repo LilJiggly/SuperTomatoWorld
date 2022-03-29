@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Loader</title>
+    <link rel="icon" type="image/x-icon" href="../img/icons/favicon.ico">
+</head>
+
+<body>
+    <!--<img src="img/loader/loader.gif" alt="">-->
+    <video autoplay muted>
+        <source src="../img/loader/loader.mp4" type="video/mp4">
+    </video>
+
+    <script>
+        var setTimeout;
+
+        setTimeout(function() {
+            location.href = "../tomaat.html";
+        }, 8000);
+    </script>
+<!-- <h1>Almost there</h1> -->
+</body>
+
+<style>
+    /* h1{
+        color: white;
+        position: absolute;
+        margin: auto;
+       right: 0;
+       left: 0;
+       text-align: center;
+       justify-self: center;
+       padding-top: 45%;
+  z-index: -5;
+    } */
+
+    body{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center 80%;
+    }
+</style>
+
+
+</html>
