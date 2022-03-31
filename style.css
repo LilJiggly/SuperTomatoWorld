@@ -57,6 +57,7 @@ button {
     appearance: none;
     background: none;
     border:none;
+    
 }
 
 /* button img */
@@ -98,4 +99,8 @@ li:nth-child(4) {
 
 #menu2 img{
     width: 5em;
+}
+
+#flip{
+    transform: scaleX(-1);
 }

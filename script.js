@@ -41,8 +41,8 @@ function toggleGeluid() {
 }
 
 
-window.onload = function() {
-    video.src = "img/videos/walk.mp4";
+// window.onload = function() {
+//     video.src = "img/videos/idle.mp4";
 
-    console.log("he");
-};
+//     console.log("he");
+// };
